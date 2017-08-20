@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_add"
+        android:icon="@drawable/ic_action_name"
+        android:title="Add Post"
+
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/action_chat"
+        android:icon="@drawable/ic_action_compose"
+        android:title="Chat"
+
+        app:showAsAction="always"/>
+
+
+    <item android:id="@+id/action_profile"
+        android:title="Profile"
+        app:showAsAction="never"
+        />
+
+
+    <item android:id="@+id/action_settings"
+        android:title="Settings"
+        app:showAsAction="never"/>
+
+
+    <item android:id="@+id/action_logout"
+        android:title="Log Out"
+        app:showAsAction="never"
+        />
+
+</menu>
